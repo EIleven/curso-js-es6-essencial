@@ -53,3 +53,12 @@ const totalAge = persons.reduce((age, person) => {
 }, 0);
 
 console.log('\nSoma de idade das pessoas', totalAge);
+
+// Juntando operações
+const totalEvenAges = persons
+                        .filter(person => person.age % 2 === 0)
+                        .reduce((age, person) => {
+                            age += person.age;
+                            return age;
+                        }, 0);
+console.log('\nSoma de idades das pessoas que possuem idade par', totalEvenAges);
