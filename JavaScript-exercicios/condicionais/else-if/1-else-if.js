@@ -22,7 +22,13 @@ array.forEach(item => {
 
 console.log('\nif');
 array.forEach(item => {
-    if (item % 2 ===0) {
+    if (item % 2 === 0) {
         console.log('O número ${item} é divisivel por 2.');
     }
-})
+    if(item % 3 === 0) {
+        console.log('O número ${item} é divisível por 3.');
+    }
+    if (item % 5 === 0) {
+        console.log('O número ${item} é divisivel por 5.');
+    }
+});
