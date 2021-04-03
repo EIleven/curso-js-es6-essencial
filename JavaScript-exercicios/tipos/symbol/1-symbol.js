@@ -19,7 +19,7 @@ console.log(user);
 //Symbols criam propriedades que não são enumerables
 for (const key in user) {
     if (user.hasOwnProperty(key)) {
-        console.log('\nValor da chave {key}: {user[key]}');
+        console.log(`\nValor da chave {key}: {user[key]}`);
     }
 }
 

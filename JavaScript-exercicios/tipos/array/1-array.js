@@ -31,7 +31,7 @@ console.log('A variável persons é um array:', Array.isArray(persons));
 
 // Iterar os itensdo array
 persons.forEach((person, index, arr) => {
-    console.log('Nome: ${person.name} index: ${index}', arr);
+    console.log(`Nome: ${person.name} index: ${index}`, arr);
 });
 
 // Filtrar array
